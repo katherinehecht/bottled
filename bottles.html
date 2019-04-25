@@ -1,0 +1,61 @@
+<!--Katherine Hecht
+    Bottles Page-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+    <title>Bottles</title>
+  </head>
+  <body>
+    <div class="header"></div>
+  <div class="navbar">
+    <a href="home.html" class="center">HOME</a>
+    <a href="bottles.html" class="center">BOTTLES</a>
+    <a href="fillings.html" class="center">FILLINGS</a>
+    <a href="about.html" class="center">ABOUT</a>
+    <a href="#" class="right"> CART </a>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img id="sizecol" src="images/sizecol.png" height=375px width=375px>
+      <div class="control">
+        <label class="radio" class="left">
+          <input type="radio" name="size" class="left">
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </label>
+        <label class="radio">
+          <input type="radio" name="size" class="center">
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </label>
+        <label class="radio" >
+          <input type="radio" name="size" >
+        </label>
+      </div>
+    </div>
+    <div class="column">
+        <img id="colorcol" src="images/colorcol.png" height=375px width=375px >
+        <select id="colorsel">
+          <option value="red">red.</option>
+          <option value="orange">orange.</option>
+          <option value="yellow">yellow.</option>
+          <option value="green">green.</option>
+          <option value="blue">blue.</option>
+          <option value="purple">purple.</option>
+        </select>
+    </div>
+    <div class="column">
+      <img id="monocol" src="images/monogramcol.png" height=375px width=375px >
+      <input type="text" id="monotag">
+      <br> <br>
+      <input type="submit" id="submit" value="Go to fillings.">
+    </div>
+  </div>
+
+  <br><br><br><br>
+  <div class="footer">
+    email: khecht@nd.edu  <br>phone: +1 (805) 218-0463
+  </div>
+  </body>
+</html>

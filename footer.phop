@@ -1,0 +1,4 @@
+<!--Katherine Hecht-->
+<?php
+echo date("m/d/y");
+?>
